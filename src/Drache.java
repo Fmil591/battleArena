@@ -20,10 +20,13 @@ public class Drache extends Charakter{
     public void spezialFähigkeit(){
         if(!isSpezialfähigkeitAktiv()){
             spezialfähigkeitAktiv = true;
-
+            lebenspunkte=lebenspunkte+10;
 
         } else if (isSpezialfähigkeitAktiv()) {
             spezialfähigkeitAktiv = false;
+            lebenspunkte=lebenspunkte-10;
         }
     }
+
+
 }

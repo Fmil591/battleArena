@@ -1,4 +1,4 @@
-public abstract class Charakter {
+public class Charakter {
     String name;
     int lebenspunkte;
     boolean spezialfähigkeitAktiv;

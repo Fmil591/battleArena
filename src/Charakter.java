@@ -40,4 +40,12 @@ public class Charakter {
 
     }
 
+    public void displayStatus() {
+        System.out.println(name + " hat " + lebenspunkte + " Lebenspunkte und die Spezialfähigkeit ist " + (isSpezialfähigkeitAktiv() ? "aktiviert" : "deaktiviert") + ".");
+    }
+
+    public void spezialFähigkeit(){
+
+    }
+
 }

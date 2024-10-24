@@ -21,10 +21,12 @@ public class Drache extends Charakter{
         if(!isSpezialfähigkeitAktiv()){
             spezialfähigkeitAktiv = true;
             lebenspunkte=lebenspunkte+10;
+            System.out.println("Drache bekommt 10 Lebenspunkte dazu");
 
         } else if (isSpezialfähigkeitAktiv()) {
             spezialfähigkeitAktiv = false;
             lebenspunkte=lebenspunkte-10;
+            System.out.println("Drache verliert die 10 Lebenspunkte wieder");
         }
     }
 
